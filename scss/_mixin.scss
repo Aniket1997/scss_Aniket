@@ -1,0 +1,11 @@
+@mixin flexprob {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+@mixin commoncode($font)  //you can add multiple parameter to it 
+{
+    color: black;
+    font-size: $font;
+}

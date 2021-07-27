@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+/* $bg-color : rgb(0, 255, 191); */
+/* @mixin flexprob {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+@mixin commoncode($font)  //you can add multiple parameter to it 
+{
+    color: black;
+    font-size: $font;
+} */
+.main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 43vw;
+  background-color: #00ffbf;
+}
+
+.main_header h2 {
+  color: black;
+  font-size: 31px;
+}
+
+.main_header h2:hover {
+  color: #fa3333;
+  font-size: 41px;
+}
+
+.main_header h3 {
+  color: black;
+  font-size: 19px;
+}
+
+.main_header h3:hover {
+  color: #57ca34;
+  font-size: 22px;
+}
+/*# sourceMappingURL=main.css.map */
